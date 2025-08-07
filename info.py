@@ -7,14 +7,14 @@ from Script import script  # Custom script file with caption & other settings
 SESSION = environ.get('SESSION', 'Webavbot')  # Pyrogram client session name
 
 API_ID = int(environ.get('API_ID', '20217846'))  # Telegram API ID
-API_HASH = environ.get('API_HASH', 'fc2d0079fe53ffadd23fceb32c825285)  # Telegram API Hash
+API_HASH = environ.get('API_HASH', 'fc2d0079fe53ffadd23fceb32c825285')  # Telegram API Hash
 BOT_TOKEN = environ.get('BOT_TOKEN', '')  # Telegram Bot Token
 
 # 👑, Channels & Logs
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1002846350414)  # File storage channel
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1002378958723)  # General log channel
-PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1002702898412)  # Premium user actions log
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1002523750108)  # Verified user actions log
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1002846350414')  # File storage channel
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1002378958723')  # General log channel
+PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1002702898412')  # Premium user actions log
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1002523750108')  # Verified user actions log
 SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002620891813"))
 
 # add admin IDs 11111 2222 3333 and add auth channel IDs -100XXX -100XXX -100XXX
