@@ -82,7 +82,7 @@ else:
 
 # 🌐 Server Settings
 PORT = int(getenv('PORT', '2626'))  # Port for web server
-NO_PORT = str(getenv("NO_PORT", True)).lower() in ("true", "1", "yes")  # Disable port in URL
+NO_PORT = str(getenv("NO_PORT", False)).lower() in ("true", "1", "yes")  # Disable port in URL
 HAS_SSL = str(getenv("HAS_SSL", False)).lower() in ("true", "1", "yes")  # Use HTTPS if True
 BIND_ADDRESS = getenv("WEB_SERVER_BIND_ADDRESS", "online-file-links-stream.onrender.com")  # Server bind address
 FQDN = getenv("FQDN", "") or BIND_ADDRESS  # Full domain name or fallback to bind address
